@@ -1,0 +1,304 @@
+html, body{
+	background-color: #f7f7f7;
+}
+h1{
+	color: #313131;
+	font-family: 'Dancing Script', cursive;
+	font-size: 70px;
+	font-weight: 800;
+	line-height: 1.1;
+	margin: 0;
+	text-align: center;
+	text-shadow: 0 1px 0 #fff;
+	-webkit-animation: fadeInDownBig 0.8s;
+	-moz-animation: fadeInDownBig 0.8s;
+	-ms-animation: fadeInDownBig 0.8s;
+	-o-animatione: fadeInDownBig 0.8s;
+	animation: fadeInDownBig 0.8s;
+}
+h2{
+	color: #545454;
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 20px;
+	font-weight: 400;
+	margin: 0;
+	position: relative;
+	text-align: center;
+	text-transform: uppercase;
+	z-index: 1;  
+}
+h2:before {
+    border-top: 1px solid #b1b1b3;
+    content:"";
+    margin: 0 auto;
+    position: absolute;
+    top: 15px; left: 0; right: 0; bottom: 0;
+    width: 95%;
+    z-index: -1;
+}
+h2 span {
+	background: #dddee0;
+	padding: 0 10px;
+}
+h3{
+	color: #313131;
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 23px;
+	font-weight: 800;
+	margin: 0;
+	text-transform: uppercase;
+}
+p{
+	font-family: 'Droid Sans', sans-serif;
+	font-weight: 400;
+	margin: 0 0 20px;
+	text-shadow: 0 1px 0 #fff;
+}
+
+img{
+	height: auto;
+	max-width: 100%;
+}
+#sf {
+    background: url("../img/intro.jpg") no-repeat scroll center center #23526a; /* http://commons.wikimedia.org/wiki/File:Golden_gate2.jpg */
+    min-height: 280px;
+}
+header{
+	background-color: #dddee0;
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+	box-shadow: 0 1px 0 #bdbebf;
+	margin: 0 0 60px;
+	padding: 10px 0 20px;
+}
+header img{
+	margin: -130px 0 0;
+}
+.position, .school {
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0;
+}
+.position span, .school span {
+    float: right;
+    font-weight: 400;
+}
+.company {
+    font-size: 18px;
+}
+.g9 ul{
+	margin: 0 0 40px;
+}
+footer{
+	margin: 0 0 20px;
+}
+hr{
+	box-shadow: 0 1px 0 #fff;
+	clear: both;
+	margin: 20px 0;
+}
+.btn{
+	background: #24a5e8;
+	background: -moz-linear-gradient(top,  #24a5e8 0%, #2193cc 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#24a5e8), color-stop(100%,#2193cc));
+	background: -webkit-linear-gradient(top,  #24a5e8 0%,#2193cc 100%);
+	background: -o-linear-gradient(top,  #24a5e8 0%,#2193cc 100%);
+	background: -ms-linear-gradient(top,  #24a5e8 0%,#2193cc 100%);
+	background: linear-gradient(top,  #24a5e8 0%,#2193cc 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#24a5e8', endColorstr='#2193cc',GradientType=0 );
+	border: 1px solid #1a71a1;
+	border-radius: 4px;
+	box-shadow: 0 1px 0 rgba(255,255,255,0.5) inset, 0 1px 0 #fff;
+	color: #fff;
+	display: block;
+	margin: 40px 0 0;
+	padding: 10px 42px;
+	float: right;
+	text-align: center;
+}
+.btn:hover{
+	background: #26aef2;
+	background: -moz-linear-gradient(top,  #26aef2 0%, #249cd8 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#26aef2), color-stop(100%,#249cd8));
+	background: -webkit-linear-gradient(top,  #26aef2 0%,#249cd8 100%);
+	background: -o-linear-gradient(top,  #26aef2 0%,#249cd8 100%);
+	background: -ms-linear-gradient(top,  #26aef2 0%,#249cd8 100%);
+	background: linear-gradient(top,  #26aef2 0%,#249cd8 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#26aef2', endColorstr='#249cd8',GradientType=0 );
+	color: #fff;
+}
+.btn:active{
+	box-shadow: 0 1px 5px rgba(0,0,0,0.4) inset, 0 1px 0 #fff;
+}
+/* ========================================================= Animation ===*/
+// --------------------------------------------- http://daneden.me/animate/
+
+@-webkit-keyframes fadeInDownBig {
+	0% {
+		opacity: 0;
+		-webkit-transform: translateY(-600px);
+	}
+	
+	100% {
+		opacity: 1;
+		-webkit-transform: translateY(0);
+	}
+}
+
+@-moz-keyframes fadeInDownBig {
+	0% {
+		opacity: 0;
+		-moz-transform: translateY(-600px);
+	}
+	
+	100% {
+		opacity: 1;
+		-moz-transform: translateY(0);
+	}
+}
+
+@-ms-keyframes fadeInDownBig {
+	0% {
+		opacity: 0;
+		-ms-transform: translateY(-600px);
+	}
+	
+	100% {
+		opacity: 1;
+		-ms-transform: translateY(0);
+	}
+}
+
+@-o-keyframes fadeInDownBig {
+	0% {
+		opacity: 0;
+		-o-transform: translateY(-600px);
+	}
+	
+	100% {
+		opacity: 1;
+		-o-transform: translateY(0);
+	}
+}
+
+@keyframes fadeInDownBig {
+	0% {
+		opacity: 0;
+		transform: translateY(-600px);
+	}
+	
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+/* ========================================================= Structure ===*/
+.container {
+	margin: 0 auto;
+	width: 960px;
+}
+.container:before, .container:after, .content:before, .content:after { content: ""; display: table; }
+.container:after, .content:after { clear: both; }
+.container, .content { zoom: 1; }
+
+.g1,.g2,.g3,.g4,.g5,.g6,.g7,.g8,.g9,.g10,.g11,.g12 {
+	float: left;
+	margin: 10px;
+	width: 100%;
+}
+
+/* ----------
+ -- 960px --
+---------- */
+	.container {width: 960px}
+	.g1{max-width: 60px}
+	.g2{max-width: 140px}
+	.g3{max-width: 220px}
+	.g4{max-width: 300px}
+	.g5{max-width: 380px}
+	.g6{max-width: 460px}
+	.g7{max-width: 540px}
+	.g8{max-width: 620px}
+	.g9{max-width: 700px}
+	.g10{max-width: 780px}
+	.g11{max-width: 860px}
+	.g12{max-width: 940px}
+/* ---------
+ -- 768px --
+--------- */
+@media screen and (min-width: 768px) and (max-width: 1023px){
+	.container {width: 768px}
+	.g1{max-width: 44px}
+	.g2{max-width: 108px}
+	.g3{max-width: 172px}
+	.g4{max-width: 236px}
+	.g5{max-width: 300px}
+	.g6{max-width: 364px}
+	.g7{max-width: 428px}
+	.g8{max-width: 492px}
+	.g9{max-width: 556px}
+	.g10{max-width: 620px}
+	.g11{max-width: 684px}
+	.g12{max-width: 748px}
+	
+	h1{
+		font-size: 55px;
+	}
+	header img {
+    	margin: -100px 0 0;
+	}
+}
+/* ---------
+ -- 480px --
+--------- */
+@media screen and (min-width: 480px) and (max-width: 767px) {
+	.container {width: 480px}
+	.g1{max-width: 60px}
+	.g2{max-width: 100px}
+	.g3{max-width: 460px}
+	.g4{max-width: 460px}
+	.g5{max-width: 460px}
+	.g6{max-width: 460px}
+	.g7{max-width: 460px}
+	.g8{max-width: 460px}
+	.g9{max-width: 460px}
+	.g10{max-width: 460px}
+	.g11{max-width: 460px}
+	.g12{max-width: 460px}
+	
+	header img {
+	    display: block;
+    	margin: -130px auto 0;
+	    width: 250px;
+	}
+	footer .g3{
+		width: 220px;
+	}
+	.btn{
+		float: none;
+		margin: 0;
+	}
+}
+/* ---------
+ -- 320px --
+--------- */
+@media screen and (min-width: 320px) and (max-width: 479px) {
+	.container {width: 320px}
+	.g1{max-width: 44px}
+	.g2{max-width: 86px}
+	.g3{max-width: 300px}
+	.g4{max-width: 300px}
+	.g5{max-width: 300px}
+	.g6{max-width: 300px}
+	.g7{max-width: 300px}
+	.g8{max-width: 300px}
+	.g9{max-width: 300px}
+	.g10{max-width: 300px}
+	.g11{max-width: 300px}
+	.g12{max-width: 300px}
+	
+	.btn{
+		float: none;
+		margin: 0;
+	}
+}
